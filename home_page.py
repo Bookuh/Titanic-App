@@ -8,7 +8,7 @@ def pipeline(filepath):
     dataframe = pd.read_csv(filepath)
     return dataframe
 
-df = pipeline(r'C:\Users\willi\OneDrive\Desktop\Data\Coding_Temple_Week_6\titanic_cleaned.csv')
+df = pipeline(r'C:/Users/willi/OneDrive/Desktop/Data/Coding_Temple_Week_6/titanic_cleaned.csv')
 
 st.title('Titanic Data')
 st.text("Here I've built an application where you can filter throught the Titanic data set using the buttons on the side of the page." )
