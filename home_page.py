@@ -9,7 +9,7 @@ def pipeline(filepath):
     dataframe = pd.read_csv(filepath)
     return dataframe
 
-df = pipeline(filepath)
+df = pipeline(file)
 
 st.title('Titanic Data')
 st.text("Here I've built an application where you can filter throught the Titanic data set using the buttons on the side of the page." )
