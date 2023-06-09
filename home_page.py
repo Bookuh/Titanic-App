@@ -2,7 +2,7 @@ import streamlit_pandas as sp
 import pandas as pd
 import streamlit as st
 from pathlib import Path
-filepath = Path(__file__).parent/ 'C:/Users/willi/OneDrive/Desktop/Data/Coding_Temple_Week_6/titanic_cleaned.csv' 
+file = Path(__file__).parent/ 'C:/Users/willi/OneDrive/Desktop/Data/Coding_Temple_Week_6/titanic_cleaned.csv' 
 @st.cache(allow_output_mutation=True)
 
 def pipeline(filepath):
